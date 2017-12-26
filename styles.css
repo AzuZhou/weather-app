@@ -1,0 +1,68 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.rain-background {
+  background-image: url('http://www.homebuenosaires.com/images/rain-4-1520316.jpg');
+}
+
+.cloudy-background {
+  background-image: url('http://www.seriouseats.com/images/2014/07/20140705-IconicBA-Allie-Lazar-buenos-aires-guide.jpg');
+}
+
+.sunny-background {
+  background-image: url('http://www.bestplacesphoto.com/La-Boca-Buenos-Aires-Argentina/La-Boca-Street-Art-In-Sunny-Day.jpg');
+}
+
+.box {
+  color: black;
+  text-align: center;
+  font-family: 'Yeseva One', cursive;
+  background-color: rgba(255, 255, 255, 0.5);
+  padding: 2em;
+  border-radius: 8px;
+}
+
+h1 {
+  font-style: bold;
+  font-size: 3em;
+}
+h2 {
+  margin-top: 2%;
+  margin-bottom: 2%;
+  text-transform: capitalize;
+  font-size: 2em;
+}
+
+button {
+  font-family: 'Yeseva One', cursive;
+  background-color: rgba(255, 255, 255, 0.1);
+  outline: 0 none;
+  cursor: pointer;
+  display: inline-block;
+  font-weight: 400;
+  line-height: 1.25;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  border: 1px solid black;
+  padding: .5rem 1rem;
+  font-size: 1rem;
+  border-radius: .25rem;
+  -webkit-transition: all .2s ease-in-out;
+  -o-transition: all .2s ease-in-out;
+  transition: all .2s ease-in-out;
+}
